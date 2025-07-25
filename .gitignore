@@ -1,0 +1,90 @@
+## .NET Core ##
+**/[Bb]in/
+**/[Oo]bj/
+**/.vs/
+**/.vscode/
+**/*.user
+**/*.suo
+**/*.userprefs
+**/*.userosscache
+**/*.sln.docstates
+**/*.lock.json
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet Packages
+**/*.nupkg
+.nuget/
+nuget.exe
+
+# Local NuGet cache
+**/packages/
+!**/packages.build/
+
+# Build results
+**/TestResults/
+**/artifacts/
+
+## Docker ##
+**/.dockerignore
+**/Dockerfile
+**/docker-compose.yml
+**/docker-compose.*.yml
+
+# Local development
+**/.env
+**/.env.local
+
+## IDE ##
+.idea/
+.vs/
+*.swp
+*.swo
+
+## User-specific files
+*.rsuser
+*.userprefs
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+## Logs and databases
+*.log
+*.sqlite
+*.sql
+*.bak
+
+## Secrets
+appsettings.Development.json
+appsettings.Secrets.json
+secrets.json
